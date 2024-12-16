@@ -1,0 +1,6 @@
+PAU SMIS
+
+Student Name    Matric. Number       Department                Level          
+henry           1jufi8sf99p          computer science          100            
+Amanda          2kjsud89skfna,       Economics                 300            
+Joseph          5oiksjd893kd         Mechanical Engineering    300            
