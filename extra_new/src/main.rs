@@ -32,9 +32,11 @@ fn main() {
 
     let mut total_amount:u32 = 0;
     let mut cont = "y".to_string();
+    let mut counter:i32 = 1;
 
     while cont == "y" {
         let mut input1 = String::new();
+        println!("Hello customer {}", counter);
         println!("Which laptop do you want to buy? ");
         println!("1. Hp \n2. IBM \n3. Toshiba \n4. Dell \n");
         println!("Please type in the name of the laptop, not the number next to it. \n");
@@ -83,6 +85,7 @@ fn main() {
         println!("Do you wish to make another purchase? Y/N ");
         io::stdin().read_line(&mut input3).expect("Not a valid input");
         cont = input3.trim().to_string().to_lowercase();
+        counter = counter + 1;
     }
     
     println!("Your total amount at the end is {}", total_amount);
